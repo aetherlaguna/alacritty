@@ -7,7 +7,8 @@
  - Cursor personalizado na cor #7b8a7b
  - Texto na cor #78d36f
  - Alguns atalhos
- > CTRL + SHIFT + N -> Abrir uma nova janela
+ ```  
+   CTRL + SHIFT + N -> Abrir uma nova janela
    CTRL + SHIFT + C -> Copiar um texto
    CTRL + SHIFT + V -> Colar o conteúdo copiado
    CTRL + SHIFT + F -> Realizar a busca de texto adiante
