@@ -1,0 +1,44 @@
+[window]
+padding = { x = 8, y = 8 }
+dynamic_padding = true
+opacity = 0.95
+dimensions = { columns = 110, lines = 30 }
+
+
+[font]
+normal = { family = "FiraCode Nerd Font", style = "Regular" }
+bold = { family = "FiraCode Nerd Font", style = "Bold" }
+italic = { family = "FiraCode Nerd Font", style = "Italic" }
+size = 11.5
+
+[cursor]
+style = { shape = "Beam", blinking = "on"}
+blink_interval = 500
+
+[colors.primary]
+background = "#0a0d0a"
+foreground = "#78d36f"
+
+[colors.cursor]
+text = "#1e1e2e"
+cursor = "#7b8a7b"
+
+[[keyboard.bindings]]
+key = "N"
+mods = "Control|Shift"
+action = "CreateNewWindow"
+
+[[keyboard.bindings]]
+key = "C"
+mods = "Control|Shift"
+action = "Copy"
+
+[[keyboard.bindings]]
+key = "V"
+mods = "Control|Shift"
+action = "Paste"
+
+[[keyboard.bindings]]
+Key = "F"
+mods = "Control|Shift"
+action = "SearchForward"
